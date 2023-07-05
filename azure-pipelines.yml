@@ -10,8 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-
-  displayName: 'Run a multi-line script'
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
