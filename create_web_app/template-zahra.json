@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "sites_Zahra_App2_name": {
-            "defaultValue": "Zahra-App2",
+            "defaultValue": "Zahra-App3",
             "type": "String"
         },
         "serverfarms_Zahra_Test_externalid": {
@@ -16,19 +16,19 @@
         {
             "type": "Microsoft.Web/sites",
             "apiVersion": "2022-09-01",
-            "name": "[parameters('sites_Zahra_App2_name')]",
+            "name": "[parameters('sites_Zahra_App3_name')]",
             "location": "West Europe",
             "kind": "app",
             "properties": {
                 "enabled": true,
                 "hostNameSslStates": [
                     {
-                        "name": "zahra-app2.azurewebsites.net",
+                        "name": "zahra-app3.azurewebsites.net",
                         "sslState": "Disabled",
                         "hostType": "Standard"
                     },
                     {
-                        "name": "zahra-app2.scm.azurewebsites.net",
+                        "name": "zahra-app3.scm.azurewebsites.net",
                         "sslState": "Disabled",
                         "hostType": "Repository"
                     }
@@ -176,7 +176,7 @@
                 "[resourceId('Microsoft.Web/sites', parameters('sites_Zahra_App2_name'))]"
             ],
             "properties": {
-                "siteName": "Zahra-App2",
+                "siteName": "Zahra-App3",
                 "hostNameType": "Verified"
             }
         }
