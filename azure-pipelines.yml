@@ -20,5 +20,5 @@ steps:
     location: 'Germany West Central'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Zahraazimy1/Zahra-Test/main/create_web_app/template.json'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/Zahraazimy1/Zahra-Test/main/create_web_app/parameters.json'
+
     deploymentMode: 'Incremental'
